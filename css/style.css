@@ -182,7 +182,4 @@ div.fadeIn {
     .winner {
         font-size: 35px;
     }
-    .options {
-        flex-direction: column;
-    }
 }
