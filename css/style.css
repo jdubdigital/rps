@@ -59,11 +59,12 @@
 }
 
 .match {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: opacity 0.5s ease 0.5s;
+    margin: -20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
 }
 
 .winner {
@@ -166,5 +167,17 @@ div.fadeIn {
 
     100% {
         transform: translateY(0px);
+    }
+}
+
+@media (max-width: 800px) {
+    .intro h1 {
+        font-size: 35px;
+    }
+    .winner {
+        font-size: 35px;
+    }
+    .match {
+        padding: 0 1em;
     }
 }
